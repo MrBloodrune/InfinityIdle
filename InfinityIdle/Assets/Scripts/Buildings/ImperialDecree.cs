@@ -1,7 +1,9 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 using BreakInfinity;
 using InfinityIdle.Core;
+using InfinityIdle.UI;
 
 namespace InfinityIdle.Buildings
 {
@@ -50,7 +52,7 @@ namespace InfinityIdle.Buildings
             ShowClickFeedback(clickValue);
             PlayClickSound();
             
-            GameManager.Instance.GetComponent<EventBus>().Publish(new ImperialDecreeClickedEvent(clickValue));
+            GameManager.Instance.EventBus.Publish(new ImperialDecreeClickedEvent(clickValue));
         }
 
         private BigDouble CalculateClickValue()

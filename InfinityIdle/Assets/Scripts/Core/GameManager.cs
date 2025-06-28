@@ -29,6 +29,8 @@ namespace InfinityIdle.Core
         private CurrencyManager currencyManager;
         private UpdateManager updateManager;
         private EventBus eventBus;
+        
+        public EventBus EventBus => eventBus;
 
         [Header("Game State")]
         public GameState CurrentState { get; private set; }
