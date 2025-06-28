@@ -1,6 +1,10 @@
 using UnityEngine;
 using BreakInfinity;
 using Newtonsoft.Json;
+#if UNITY_6_0_OR_NEWER
+using UnityEngine.UIElements;
+using Unity.Properties;
+#endif
 using TMPro;
 
 public class DependencyTest : MonoBehaviour
