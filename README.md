@@ -1,4 +1,4 @@
-# Galactic Conquest Idle (Infinite Idle: Galactic Rule)
+# Infinity Idle (Galactic Conquest)
 
 A strategic idle game where players expand from a dying planet to universal dominance. Think "Cookie Clicker meets Stellaris" with deep faction mechanics and reality-warping progression.
 
@@ -24,7 +24,7 @@ A strategic idle game where players expand from a dying planet to universal domi
 ```
 idle/
 ├── docs/                    # Game design documentation
-├── GalacticConquestIdle/   # Unity project (to be created)
+├── InfinityIdle/           # Unity project
 ├── CLAUDE.md               # AI assistant guidelines
 └── README.md               # This file
 ```
@@ -59,7 +59,7 @@ idle/
    git lfs install
    ```
 
-3. Open Unity Hub and add the `GalacticConquestIdle` project
+3. Open Unity Hub and add the `InfinityIdle` project
 
 4. Install required packages:
    - TextMeshPro

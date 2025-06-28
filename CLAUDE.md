@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the "Galactic Conquest Idle" (better known as "Infinite Idle: Galactic Rule") game project. Currently in the pre-development documentation phase with comprehensive design documents but no implementation yet.
+This is the "Infinity Idle" (formerly "Galactic Conquest Idle") game project. Currently in the pre-development documentation phase with comprehensive design documents but no implementation yet.
 
 ## Technology Stack (Planned)
 
@@ -54,7 +54,7 @@ idle/
 Once Unity project is created:
 ```bash
 # Unity project will be in a subdirectory
-cd GalacticConquestIdle/
+cd InfinityIdle/
 
 # Open in Unity Hub
 unity-hub --open .
