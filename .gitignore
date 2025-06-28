@@ -85,5 +85,27 @@ Thumbs.db.meta
 # Visual Studio Code
 .vscode/
 
-# Unity project folder
-InfinityIdle/
+# Unity-specific files
+/InfinityIdle/[Ll]ibrary/
+/InfinityIdle/[Tt]emp/
+/InfinityIdle/[Oo]bj/
+/InfinityIdle/[Bb]uild/
+/InfinityIdle/[Bb]uilds/
+/InfinityIdle/[Ll]ogs/
+/InfinityIdle/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures can get excessive in size.
+/InfinityIdle/[Mm]emoryCaptures/
+
+# Recordings can get excessive in size
+/InfinityIdle/[Rr]ecordings/
+
+# Asset meta data
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity generated files
+/InfinityIdle/sysinfo.txt
+/InfinityIdle/Assets/StreamingAssets/aa.meta
+/InfinityIdle/Assets/StreamingAssets/aa/*
