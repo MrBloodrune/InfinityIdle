@@ -23,7 +23,7 @@ namespace InfinityIdle.Buildings
         
         private CurrencyManager currencyManager;
         private AudioSource audioSource;
-        private ObjectPool<GameObject> effectPool;
+        private InfinityIdle.Core.ObjectPool<GameObject> effectPool;
         
         private void Start()
         {
@@ -32,7 +32,7 @@ namespace InfinityIdle.Buildings
             
             if (clickEffect != null)
             {
-                effectPool = new ObjectPool<GameObject>(
+                effectPool = new InfinityIdle.Core.ObjectPool<GameObject>(
                     () => Instantiate(clickEffect),
                     effect => effect.SetActive(true),
                     effect => effect.SetActive(false),

@@ -8,10 +8,8 @@ namespace InfinityIdle.Core
 {
     public class CurrencyManager : MonoBehaviour
     {
-        [Header("Currency Values")]
         private Dictionary<CurrencyType, BigDouble> currencies = new Dictionary<CurrencyType, BigDouble>();
         
-        [Header("Currency Events")]
         public event Action<CurrencyType, BigDouble, BigDouble> OnCurrencyChanged;
         
         public enum CurrencyType
