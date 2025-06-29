@@ -5,6 +5,9 @@ using BreakInfinity;
 using InfinityIdle.Core;
 using InfinityIdle.UI;
 
+// If EventSystems is missing, you may need to install the Input System package
+// Window > Package Manager > Unity Registry > Input System
+
 namespace InfinityIdle.Buildings
 {
     public class ImperialDecree : MonoBehaviour, IPointerClickHandler
